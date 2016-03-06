@@ -33,7 +33,7 @@ def save_to_database():
             texts = soup.findAll("table", class_="match-table")
             if len(texts) > 0:
                 rows = texts[0].findChildren(['th', 'tr'])
-                if len(rows) > 20:
+                if len(rows) > 50:
                     for row in rows:
                         try:
                             visible = dict(row.attrs)["class"]
