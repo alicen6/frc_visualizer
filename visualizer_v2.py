@@ -29,7 +29,7 @@ blue_score = 'blue_score'
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
 
-c.execute('SELECT * FROM {tn} WHERE shorthand ="2016week0"'.
+c.execute('SELECT * FROM {tn} WHERE shorthand ="2016waspo"'.
           format(tn=table_name, r1=red_one))
 all_rows = c.fetchall()
 
@@ -63,4 +63,4 @@ for entry in all_rows:
     first_x_point += 30
     second_x_point += 30
 image.show()
-image.save("2016week02.jpeg", "JPEG")
+image.save("2016waspo2.jpeg", "JPEG")
