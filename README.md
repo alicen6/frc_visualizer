@@ -16,8 +16,13 @@ The darker an alliance is, the older the teams are as a whole. The lighter it is
 
 The values that are displayed for the scores will not be exact in the code's current run state. This is in order to get better looking visuals, though all the scores are still correct relative to each other.
 
+### Version 2
+
+This was just a test to see how the data would look if all the points were rectangles instead of triangles. The data is easier to read in this format.
+
 ### Example:
 
-This is the image that was created using the data from the Qualifiers at the Palmetto Regional 2016.
+These are the images that were created using the data from the Qualifiers at the Palmetto Regional 2016.
 
 ![alt tag](https://raw.githubusercontent.com/alicen6/frc_visualizer/master/2016scmb.jpeg)
+![alt tag](https://raw.githubusercontent.com/alicen6/frc_visualizer/master/2016scmb2.jpeg)
